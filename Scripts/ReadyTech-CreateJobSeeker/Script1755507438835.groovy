@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.setViewPortSize(2560, 1620)
+WebUI.setViewPortSize(1920, 1080)
 
 WebUI.navigateToUrl('https://live-demo.edge6.nep.aws.jobready.io/users/sign_in')
 
