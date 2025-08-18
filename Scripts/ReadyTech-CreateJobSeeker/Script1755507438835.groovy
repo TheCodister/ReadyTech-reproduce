@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Page_(edge) job ready/svg_arrow'))
 
 WebUI.click(findTestObject('Object Repository/Page_(edge) job ready/a_New Job Seeker'))
 
-WebUI.takeElementScreenshotAsCheckpoint('Element', findTestObject('Page_(edge) job ready/div_'))
+WebUI.takeElementScreenshot('Element', findTestObject('Page_(edge) job ready/div_'))
 
 WebUI.closeBrowser()
 
