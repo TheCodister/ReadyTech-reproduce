@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.setViewPortSize(1920, 1080)
+WebUI.setViewPortSize(2560, 1600)
 
 WebUI.navigateToUrl('https://live-demo.edge6.nep.aws.jobready.io/users/sign_in')
 
@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Page_(edge) job ready/svg_arrow'))
 
 WebUI.click(findTestObject('Object Repository/Page_(edge) job ready/a_New Job Seeker'))
 
-WebUI.takeElementScreenshot('Element', findTestObject('Page_(edge) job ready/div_'))
+WebUI.takeElementScreenshotAsCheckpoint('Element', findTestObject('Page_(edge) job ready/div_'))
 
 WebUI.closeBrowser()
 
