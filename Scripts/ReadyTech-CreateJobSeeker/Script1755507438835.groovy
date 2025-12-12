@@ -37,5 +37,3 @@ WebUI.click(findTestObject('Object Repository/Page_(edge) job ready/a_New Job Se
 
 WebUI.takeElementScreenshotAsCheckpoint('Element', findTestObject('Page_(edge) job ready/div_'))
 
-WebUI.closeBrowser()
-
