@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://eprovide.mapi-trust.org/advanced-search')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Object Repository/Page_Advanced Search - ePROVIDE - Online Su_e1d13d/input_Search_search-input'), 
     'asdasdasda')
 
